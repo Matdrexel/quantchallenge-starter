@@ -17,4 +17,4 @@ preds["Y1"] = X_hat @ w1
 preds["Y2"] = X_hat @ w2
 print(preds.head())
 
-preds.to_csv("preds_linreg.csv", index=False)
+preds.to_csv("predictions/preds_linreg.csv", index=False)
