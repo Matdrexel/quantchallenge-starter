@@ -3,8 +3,8 @@ import numpy as np
 from sklearn import linear_model
 from sklearn import model_selection
 
-train_data = pd.read_csv('./data/train.csv')
-test_data = pd.read_csv('./data/test.csv')
+train_data = pd.read_csv('./data/train_new.csv')
+test_data = pd.read_csv('./data/test_new.csv')
 
 y1 = train_data["Y1"]
 y2 = train_data["Y2"]
